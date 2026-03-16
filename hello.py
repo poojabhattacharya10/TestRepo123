@@ -1,4 +1,5 @@
 def greet(name):
-    print("Hello " + name)
-
-greet("World")
+    if name:
+        print("Hello " + name)
+    else:
+        print("Hello Guest")
